@@ -25,28 +25,27 @@ function populateDictionary(tts) {
 	dictionary["after"] = tts ? "després de " : "after.ogg";
 	dictionary["in"] = tts ? "en " : "in.ogg";
 	
-	dictionary["left"] = tts ? "gira a l'esquerra" : "left.ogg";
-	dictionary["left_sh"] = tts ? "fes un gir tancat a l'esquerra" : "left_sh.ogg";
-	dictionary["left_sl"] = tts ? "gira lleument a l'esquerra" : "left_sl.ogg";
-	dictionary["right"] = tts ? "gira a la dreta" : "right.ogg";
+	dictionary["left"] = tts ? "gireu a l'esquerra" : "left.ogg";
+	dictionary["left_sh"] = tts ? "feu un gir tancat a l'esquerra" : "left_sh.ogg";
+	dictionary["left_sl"] = tts ? "gireu lleument a l'esquerra" : "left_sl.ogg";
+	dictionary["right"] = tts ? "gireu a la dreta" : "right.ogg";
 	dictionary["right_sh"] = tts ? "fes un gir tancat a la dreta" : "right_sh.ogg";
-	dictionary["right_sl"] = tts ? "gira lleument a la dreta" : "right_sl.ogg";
-	dictionary["left_keep"] = tts ? "estigues a l'esquerra" : "left_keep.ogg";
-	dictionary["right_keep"] = tts ? "estigues a la dreta" : "right_keep.ogg";
-	dictionary["left_bear"] = tts ? "estigues a l'esquerra" : "left_bear.ogg";   // in English the same as left_keep, may be different in other languages
-	dictionary["right_bear"] = tts ? "estigues a la dreta" : "right_bear.ogg";    // in English the same as right_keep, may be different in other languages
+	dictionary["right_sl"] = tts ? "gireu lleument a la dreta" : "right_sl.ogg";
+	dictionary["left_keep"] = tts ? "mantingue-vos a l'esquerra" : "left_keep.ogg";
+	dictionary["right_keep"] = tts ? "mantingue-vos a la dreta" : "right_keep.ogg";
+	dictionary["left_bear"] = tts ? "mantingue-vos a l'esquerra" : "left_bear.ogg";   // in English the same as left_keep, may be different in other languages
+	dictionary["right_bear"] = tts ? "mantingue-vos a la dreta" : "right_bear.ogg";    // in English the same as right_keep, may be different in other languages
 	
 	// U-TURNS
-	dictionary["make_uturn"] = tts ? "Dóna la volta" : "make_uturn.ogg";
-	dictionary["make_uturn_wp"] = tts ? "Quan puguis dóna la volta" : "make_uturn_wp.ogg";
+	dictionary["make_uturn"] = tts ? "Feu mitja volta" : "make_uturn.ogg";
+	dictionary["make_uturn_wp"] = tts ? "Quan pugueu, feu un canvi de sentit" : "make_uturn_wp.ogg";
 	
 	// ROUNDABOUTS
-	//dictionary["prepare_roundabout"] = tts ? "Prepárate para entrar en la rotonda después de" : "prepare_roundabout.ogg";
-	dictionary["prepare_roundabout"] = tts ? "entra a la rotonda" : "prepare_roundabout.ogg";
-	dictionary["roundabout"] = tts ? "entra a la rotonda" : "roundabout.ogg";
+	dictionary["prepare_roundabout"] = tts ? "entreu a la rotonda" : "prepare_roundabout.ogg";
+	dictionary["roundabout"] = tts ? "entreu a la rotonda" : "roundabout.ogg";
 	dictionary["then"] = tts ? ", llavors" : "then.ogg";
 	dictionary["and"] = tts ? " i " : "and.ogg";
-	dictionary["take"] = tts ? "agafa la " : "take.ogg";
+	dictionary["take"] = tts ? "agafeu la " : "take.ogg";
 	dictionary["exit"] = tts ? "sortida" : "exit.ogg";
 	
 	dictionary["1st"] = tts ? "primera " : "1st.ogg";
@@ -68,25 +67,24 @@ function populateDictionary(tts) {
 	dictionary["17th"] = tts ? "dissetena " : "17th.ogg";
 	
 	// STRAIGHT/FOLLOW
-	dictionary["go_ahead"] = tts ? "Continua recte" : "go_ahead.ogg";
-	dictionary["follow"] = tts ? "Segueix la via durant " : "follow.ogg";
+	dictionary["go_ahead"] = tts ? "Continueu recte" : "go_ahead.ogg";
+	dictionary["follow"] = tts ? "Seguiu la via durant " : "follow.ogg";
 	
 	// ARRIVE
-	dictionary["and_arrive_destination"] = tts ? "i arribaràs a la teva destinació " : "and_arrive_destination.ogg";
-	dictionary["reached_destination"] = tts ? "has arribat a la teva destinació " : "reached_destination.ogg";
-	dictionary["and_arrive_intermediate"] = tts ? "i arribaràs al teu punt intermig " : "and_arrive_intermediate.ogg";
-	dictionary["reached_intermediate"] = tts ? "has arribat al teu punt intermig " : "reached_intermediate.ogg";
+	dictionary["and_arrive_destination"] = tts ? "i arribareu a la destinació " : "and_arrive_destination.ogg";
+	dictionary["reached_destination"] = tts ? "heu arribat a la destinació " : "reached_destination.ogg";
+	dictionary["and_arrive_intermediate"] = tts ? "i arribareu al punt intermig " : "and_arrive_intermediate.ogg";
+	dictionary["reached_intermediate"] = tts ? "heu arribat al punt intermig " : "reached_intermediate.ogg";
 	
 	// NEARBY POINTS
-	dictionary["and_arrive_waypoint"] = tts ? "i passaràs pel teu punt G P X intermig " : "and_arrive_waypoint.ogg";
-	dictionary["reached_waypoint"] = tts ? "estàs passant el teu punt G P X intermig " : "reached_waypoint.ogg";
-	dictionary["and_arrive_favorite"] = tts ? "i passaràs el teu favorit " : "and_arrive_favorite.ogg";
-	dictionary["reached_favorite"] = tts ? "estás passant el teu punt favorit " : "reached_favorite.ogg";
-	dictionary["and_arrive_poi"] = tts ? "i passaràs el P D I " : "and_arrive_poi.ogg";
-	dictionary["reached_poi"] = tts ? "estàs passant el P D I " : "reached_poi.ogg";
+	dictionary["and_arrive_waypoint"] = tts ? "i passareu pel punt G P X intermig " : "and_arrive_waypoint.ogg";
+	dictionary["reached_waypoint"] = tts ? "esteu passant el punt G P X intermig " : "reached_waypoint.ogg";
+	dictionary["and_arrive_favorite"] = tts ? "i arribareu al marcador " : "and_arrive_favorite.ogg";
+	dictionary["reached_favorite"] = tts ? "esteu passant pel marcador " : "reached_favorite.ogg";
+	dictionary["and_arrive_poi"] = tts ? "i arribareu al punt d'interès " : "and_arrive_poi.ogg";
+	dictionary["reached_poi"] = tts ? "esteu passant pel punt d'interès " : "reached_poi.ogg";
 	
 	// ATTENTION
-	//dictionary["exceed_limit"] = tts ? "estás excediendo el límite de velocidad " : "exceed_limit.ogg";
 	dictionary["exceed_limit"] = tts ? "límit de velocitat " : "exceed_limit.ogg";
 	dictionary["attention"] = tts ? "atenció, " : "attention.ogg";
 	dictionary["speed_camera"] = tts ? "radar de velocitat" : "speed_camera.ogg";
@@ -94,15 +92,15 @@ function populateDictionary(tts) {
 	dictionary["railroad_crossing"] = tts ? "pas a nivell" : "railroad_crossing.ogg";
 	dictionary["traffic_calming"] = tts ? "ressalt" : "traffic_calming.ogg";
 	dictionary["toll_booth"] = tts ? "guixeta de peatge" : "toll_booth.ogg";
-	dictionary["stop"] = tts ? "senyal d'ESTOP" : "stop.ogg";
+	dictionary["stop"] = tts ? "senyal d'estop" : "stop.ogg";
 	dictionary["pedestrian_crosswalk"] = tts ? "pas de vianants" : "pedestrian_crosswalk.ogg";
 	dictionary["tunnel"] = tts ? "túnel" : "tunnel.ogg";
 	
 	// OTHER PROMPTS
-	dictionary["location_lost"] = tts ? "senyal g p s perduda" : "location_lost.ogg";
-	dictionary["location_recovered"] = tts ? "senyal g p s trobada" : "location_recovered.ogg";
-	dictionary["off_route"] = tts ? "t'has desviat de la ruta" : "off_route.ogg";
-	dictionary["back_on_route"] = tts ? "has tornat a la ruta" : "back_on_route.ogg";
+	dictionary["location_lost"] = tts ? "s'ha perdut el senyal g p s" : "location_lost.ogg";
+	dictionary["location_recovered"] = tts ? "s'ha trobat el senyal g p s" : "location_recovered.ogg";
+	dictionary["off_route"] = tts ? "us heu desviat de la ruta" : "off_route.ogg";
+	dictionary["back_on_route"] = tts ? "heu tornat a la ruta" : "back_on_route.ogg";
 	
 	// STREET NAME PREPOSITIONS
 	dictionary["onto"] = tts ? "en direcció a " : "onto.ogg";
@@ -116,7 +114,7 @@ function populateDictionary(tts) {
 	dictionary["around"] = tts ? "aproximadament " : "around.ogg";
 	dictionary["kilometers"] = tts ? "quilòmetres" : "kilometers.ogg";
 	
-	dictionary["feet"] = tts ? "pies" : "feet.ogg";
+	dictionary["feet"] = tts ? "peus" : "feet.ogg";
 	dictionary["1_tenth_of_a_mile"] = tts ? "una dècima de milla" : "1_tenth_of_a_mile.ogg";
 	dictionary["tenths_of_a_mile"] = tts ? "dècimes de milla" : "tenths_of_a_mile.ogg";
 	dictionary["around_1_mile"] = tts ? "aproximadament una milla" : "around_1_mile.ogg";
